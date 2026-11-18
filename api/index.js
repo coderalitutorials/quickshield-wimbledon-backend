@@ -38,12 +38,12 @@ app.use(
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("QuickShield Services notthinghill Backend is active.");
+  res.send("QuickShield Services wimbledon Backend is active.");
 });
 
-const BRAND_NAME = "QuickShield Services nothinghill";
-const BRAND_LOCATION = "Purley, London";
-const BRAND_PHONE = "+44 7417 502611";
+const BRAND_NAME = "QuickShield Services wimbledon";
+const BRAND_LOCATION = "wimbledon, London";
+const BRAND_PHONE = "+447459860336";
 const BRAND_EMAIL = "info@quickshieldpestcontrol.uk";
 
 const QUICKSHIELD_NAVY = "#0A2240";
